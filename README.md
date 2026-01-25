@@ -1,7 +1,8 @@
 # 👋 Hi, I'm Heer Patel
 
-AI Researcher @ BIT Lab | MS in Artificial Intelligence @ Boston University
 Actively seeking **full-time AI / ML Engineer roles**
+* 📧 Email: **[patelheer2002@gmail.com](mailto:patelheer2002@gmail.com)**
+* 💼 LinkedIn: [heer-patel29](https://www.linkedin.com/in/heer-patel29)
 
 ---
 
@@ -100,30 +101,3 @@ Multi-Agent Architectures, Context Engineering, MCP
 Git, Docker, Scrum, Cloud AI Platforms
 
 ---
-
-## 📜 Certifications
-
-* AI for India 2.0
-* Artificial Intelligence & Machine Learning
-* Python for Programming
-* Git Certified
-* Introduction to Generative AI
-
----
-
-## 🌍 Languages
-
-* English (Full Professional)
-* Hindi (Professional Working)
-* Gujarati (Native)
-
----
-
-## 📫 Let's Connect
-
-* 📧 Email: **[patelheer2002@gmail.com](mailto:patelheer2002@gmail.com)**
-* 💼 LinkedIn: [heer-patel29](https://www.linkedin.com/in/heer-patel29)
-
----
-
-⭐ *If you're interested in collaborating on AI research, production ML systems, or agentic workflows, feel free to reach out!*
