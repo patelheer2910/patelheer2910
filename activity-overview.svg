@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="320" viewBox="0 0 420 320">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#161b22"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </radialGradient>
+    <linearGradient id="areaFill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#39d353" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#26a641" stop-opacity="0.15"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="420" height="320" rx="12" fill="url(#bg)" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Title -->
+  <text x="210" y="28" text-anchor="middle" fill="#e6edf3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600">Activity Overview</text>
+
+  <!-- Center point -->
+  <!-- cx=210 cy=175 -->
+  <!-- Axes: Up=Code Review, Right=Issues, Down=Pull Requests, Left=Commits -->
+  <!-- Max radius = 110 -->
+
+  <!-- Grid circles -->
+  <circle cx="210" cy="175" r="27.5" fill="none" stroke="#21262d" stroke-width="0.8"/>
+  <circle cx="210" cy="175" r="55" fill="none" stroke="#21262d" stroke-width="0.8"/>
+  <circle cx="210" cy="175" r="82.5" fill="none" stroke="#21262d" stroke-width="0.8"/>
+  <circle cx="210" cy="175" r="110" fill="none" stroke="#21262d" stroke-width="0.8"/>
+
+  <!-- Axis lines -->
+  <line x1="210" y1="65" x2="210" y2="285" stroke="#26a641" stroke-width="1.5" opacity="0.6"/>
+  <line x1="100" y1="175" x2="320" y2="175" stroke="#26a641" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- Data polygon -->
+  <!-- Code Review (up): 30% → y = 175 - 110*0.3/0.58*1 = 175 - 56.9 ≈ 118 (scaled so 58% fills most) -->
+  <!-- Actually let's scale so max value 58% maps to full radius -->
+  <!-- Commits (left): 58% → 110 * (58/58) = 110 → x=210-110=100 -->
+  <!-- Code Review (up): 30% → 110 * (30/58) = 56.9 → y=175-56.9=118.1 -->
+  <!-- Pull Requests (down): 8% → 110 * (8/58) = 15.2 → y=175+15.2=190.2 -->
+  <!-- Issues (right): 4% → 110 * (4/58) = 7.6 → x=210+7.6=217.6 -->
+
+  <polygon
+    points="210,118 217.6,175 210,190 100,175"
+    fill="url(#areaFill)"
+    stroke="#39d353"
+    stroke-width="2"
+    stroke-linejoin="round"
+  />
+
+  <!-- Data points -->
+  <circle cx="210" cy="118" r="4" fill="#0d1117" stroke="#39d353" stroke-width="2"/>
+  <circle cx="217.6" cy="175" r="4" fill="#0d1117" stroke="#39d353" stroke-width="2"/>
+  <circle cx="210" cy="190" r="4" fill="#0d1117" stroke="#39d353" stroke-width="2"/>
+  <circle cx="100" cy="175" r="4" fill="#0d1117" stroke="#39d353" stroke-width="2"/>
+
+  <!-- Labels -->
+  <!-- Code Review - top -->
+  <text x="210" y="52" text-anchor="middle" fill="#8b949e" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600">30%</text>
+  <text x="210" y="66" text-anchor="middle" fill="#8b949e" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">Code review</text>
+
+  <!-- Issues - right -->
+  <text x="335" y="171" text-anchor="middle" fill="#8b949e" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600">4%</text>
+  <text x="335" y="185" text-anchor="middle" fill="#8b949e" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">Issues</text>
+
+  <!-- Pull Requests - bottom -->
+  <text x="210" y="298" text-anchor="middle" fill="#8b949e" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600">8%</text>
+  <text x="210" y="312" text-anchor="middle" fill="#8b949e" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">Pull requests</text>
+
+  <!-- Commits - left -->
+  <text x="72" y="171" text-anchor="middle" fill="#8b949e" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600">58%</text>
+  <text x="72" y="185" text-anchor="middle" fill="#8b949e" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">Commits</text>
+</svg>
