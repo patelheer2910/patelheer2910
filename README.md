@@ -3,6 +3,7 @@
 Actively seeking **full-time SWE or AI / ML Engineer roles**
 * 📧 Email: **[patelheer2002@gmail.com](mailto:patelheer2002@gmail.com)**
 * 💼 LinkedIn: [heer-patel29](https://www.linkedin.com/in/heer-patel29)
+* 🧰 Portfolio: [heer's-personal-ai-space](https://heerp.vercel.app)
 
 ---
 
