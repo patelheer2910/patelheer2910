@@ -85,6 +85,21 @@ class HeerPatel:
 
 ---
 
+## 🧠 What I'm About
+
+```
+ ┌─────────────────────────────────────────────────────────┐
+ │                                                         │
+ │   🔬Research  ──────► 🏗️Systems   ──────►  🚀Impact    |
+ │                                                         │
+ │ I dig deep into      I build clean,      I ship things  │
+ │ models & papers      scalable pipelines  that work IRL  │
+ │                                                         │
+ └─────────────────────────────────────────────────────────┘
+```
+
+---
+
 ## 📊 GitHub Analytics
 
 <div align="center">
@@ -109,22 +124,6 @@ class HeerPatel:
 </div>
 
 <br/>
-
-
----
-
-## 🧠 What I'm About
-
-```
- ┌─────────────────────────────────────────────────────────┐
- │                                                         │
- │   🔬Research  ──────► 🏗️Systems   ──────►  🚀Impact    |
- │                                                         │
- │ I dig deep into      I build clean,      I ship things  │
- │ models & papers      scalable pipelines  that work IRL  │
- │                                                         │
- └─────────────────────────────────────────────────────────┘
-```
 
 ---
 
