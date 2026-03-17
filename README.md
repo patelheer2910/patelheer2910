@@ -23,26 +23,11 @@
 
 ---
 
-## `$ whoami`
+## ⚡ Dashboard
 
-```python
-class HeerPatel:
-    def __init__(self):
-        self.role       = "AI / ML Engineer"
-        self.status     = "🔍 Actively seeking full-time SWE or AI/ML roles"
-        self.location   = "🌎 Open to relocation"
-        self.passion    = "Building things that actually work in production"
-
-    def research_interests(self):
-        return [
-            "Context Engineering & Model Context Protocol (MCP)",
-            "Multi-Agent Systems & Agentic AI",
-            "Semantic Search & Vector Databases",
-            "Topic Modeling & Drift Detection",
-            "Generative AI Alignment & Evaluation",
-            "Production ML Systems",
-        ]
-```
+<div align="center">
+  <img width="100%" src="./whoami-dashboard.svg" alt="Heer Patel Dashboard"/>
+</div>
 
 ---
 
@@ -85,45 +70,38 @@ class HeerPatel:
 
 ---
 
-## 🧠 What I'm About
-
-```
- ┌─────────────────────────────────────────────────────────┐
- │                                                         │
- │   🔬Research  ──────► 🏗️Systems   ──────►  🚀Impact    |
- │                                                         │
- │ I dig deep into      I build clean,      I ship things  │
- │ models & papers      scalable pipelines  that work IRL  │
- │                                                         │
- └─────────────────────────────────────────────────────────┘
-```
-
----
-
 ## 📊 GitHub Analytics
 
 <div align="center">
 
-<!-- Activity Overview Radar -->
-<img height="280em" src="./activity-overview.svg" alt="Activity Overview"/>
+<!-- Stats Cards + Activity Radar side by side -->
+<table>
+<tr>
+<td>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=patelheer2910&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=8957e5&text_color=8b949e&ring_color=58a6ff"/>
+</td>
+<td>
+  <img height="180em" src="./activity-overview.svg" alt="Activity Overview"/>
+</td>
+</tr>
+</table>
 
-<br/>
-
-<img src="https://img.shields.io/badge/Total_Commits_(Past_Year)-145-39d353?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117"/>
+<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=patelheer2910&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&langs_count=8"/>
 
 <br/><br/>
 
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=patelheer2910&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=8957e5&text_color=8b949e&ring_color=58a6ff"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=patelheer2910&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&langs_count=8"/>
+<!-- Streak Stats -->
+<img width="90%" src="https://github-readme-streak-stats.herokuapp.com?user=patelheer2910&theme=github-dark-blue&hide_border=true&background=0D1117&stroke=1f6feb&ring=58a6ff&fire=58a6ff&currStreakNum=e6edf3&sideNums=e6edf3&currStreakLabel=8b949e&sideLabels=8b949e&dates=6e7681"/>
+
 </div>
 
-<br/>
+---
+
+## 🧠 What I'm About
 
 <div align="center">
-  <img width="90%" src="https://github-readme-streak-stats.herokuapp.com?user=patelheer2910&theme=github-dark-blue&hide_border=true&background=0D1117&stroke=1f6feb&ring=58a6ff&fire=58a6ff&currStreakNum=e6edf3&sideNums=e6edf3&currStreakLabel=8b949e&sideLabels=8b949e&dates=6e7681"/>
+  <img width="100%" src="./about-pipeline.svg" alt="Research → Systems → Impact"/>
 </div>
-
-<br/>
 
 ---
 
@@ -141,7 +119,7 @@ class HeerPatel:
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=heerpatell&style=for-the-badge&color=1f6feb&label=PROFILE+VIEWS"/>
+<img src="https://komarev.com/ghpvc/?username=patelheer2910&style=for-the-badge&color=1f6feb&label=PROFILE+VIEWS"/>
 
 </div>
 
