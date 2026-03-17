@@ -70,33 +70,6 @@
 
 ---
 
-## 📊 GitHub Analytics
-
-<div align="center">
-
-<!-- Stats Cards + Activity Radar side by side -->
-<table>
-<tr>
-<td>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=patelheer2910&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=8957e5&text_color=8b949e&ring_color=58a6ff"/>
-</td>
-<td>
-  <img height="180em" src="./activity-overview.svg" alt="Activity Overview"/>
-</td>
-</tr>
-</table>
-
-<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=patelheer2910&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&langs_count=8"/>
-
-<br/><br/>
-
-<!-- Streak Stats -->
-<img width="90%" src="https://github-readme-streak-stats.herokuapp.com?user=patelheer2910&theme=github-dark-blue&hide_border=true&background=0D1117&stroke=1f6feb&ring=58a6ff&fire=58a6ff&currStreakNum=e6edf3&sideNums=e6edf3&currStreakLabel=8b949e&sideLabels=8b949e&dates=6e7681"/>
-
-</div>
-
----
-
 ## 🧠 What I'm About
 
 <div align="center">
