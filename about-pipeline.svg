@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
+  <defs>
+    <linearGradient id="wBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+    <linearGradient id="wAccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1f6feb"/>
+      <stop offset="100%" stop-color="#8957e5"/>
+    </linearGradient>
+    <linearGradient id="arrow1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="100%" stop-color="#bc8cff"/>
+    </linearGradient>
+    <linearGradient id="arrow2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#bc8cff"/>
+      <stop offset="100%" stop-color="#3fb950"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main card -->
+  <rect width="800" height="200" rx="16" fill="url(#wBg)" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Top accent bar -->
+  <rect x="0" y="0" width="800" height="4" rx="0" fill="url(#wAccent)" clip-path="inset(0 0 0 0 round 16px 16px 0 0)"/>
+
+  <!-- Window dots -->
+  <circle cx="28" cy="22" r="6" fill="#f85149" opacity="0.8"/>
+  <circle cx="48" cy="22" r="6" fill="#d29922" opacity="0.8"/>
+  <circle cx="68" cy="22" r="6" fill="#3fb950" opacity="0.8"/>
+
+  <!-- Title -->
+  <text x="400" y="26" text-anchor="middle" fill="#8b949e" font-family="SF Mono, Consolas, monospace" font-size="12">my_philosophy.md</text>
+
+  <!-- Divider -->
+  <line x1="16" y1="40" x2="784" y2="40" stroke="#21262d" stroke-width="1"/>
+
+  <!-- === STAGE 1: Research === -->
+  <rect x="40" y="60" width="200" height="110" rx="12" fill="#161b22" stroke="#1f6feb" stroke-width="1.5" stroke-opacity="0.5"/>
+  <!-- Icon circle -->
+  <circle cx="80" cy="92" r="18" fill="#1f6feb" fill-opacity="0.15" stroke="#1f6feb" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="80" y="98" text-anchor="middle" font-size="16">🔬</text>
+  <!-- Title -->
+  <text x="108" y="96" fill="#58a6ff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="700">Research</text>
+  <!-- Desc line 1 -->
+  <text x="60" y="128" fill="#8b949e" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">I dig deep into models</text>
+  <!-- Desc line 2 -->
+  <text x="60" y="146" fill="#8b949e" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">and papers to find what</text>
+  <!-- Desc line 3 -->
+  <text x="60" y="160" fill="#6e7681" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-style="italic">actually matters</text>
+
+  <!-- Arrow 1 -->
+  <line x1="252" y1="110" x2="288" y2="110" stroke="url(#arrow1)" stroke-width="2.5" stroke-linecap="round"/>
+  <polygon points="290,110 282,105 282,115" fill="#bc8cff"/>
+
+  <!-- === STAGE 2: Systems === -->
+  <rect x="300" y="60" width="200" height="110" rx="12" fill="#161b22" stroke="#8957e5" stroke-width="1.5" stroke-opacity="0.5"/>
+  <!-- Icon circle -->
+  <circle cx="340" cy="92" r="18" fill="#8957e5" fill-opacity="0.15" stroke="#8957e5" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="340" y="98" text-anchor="middle" font-size="16">🏗️</text>
+  <!-- Title -->
+  <text x="368" y="96" fill="#bc8cff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="700">Systems</text>
+  <!-- Desc -->
+  <text x="320" y="128" fill="#8b949e" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">I build clean, scalable</text>
+  <text x="320" y="146" fill="#8b949e" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">pipelines that handle</text>
+  <text x="320" y="160" fill="#6e7681" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-style="italic">real-world complexity</text>
+
+  <!-- Arrow 2 -->
+  <line x1="512" y1="110" x2="548" y2="110" stroke="url(#arrow2)" stroke-width="2.5" stroke-linecap="round"/>
+  <polygon points="550,110 542,105 542,115" fill="#3fb950"/>
+
+  <!-- === STAGE 3: Impact === -->
+  <rect x="560" y="60" width="200" height="110" rx="12" fill="#161b22" stroke="#3fb950" stroke-width="1.5" stroke-opacity="0.5"/>
+  <!-- Icon circle -->
+  <circle cx="600" cy="92" r="18" fill="#3fb950" fill-opacity="0.15" stroke="#3fb950" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="600" y="98" text-anchor="middle" font-size="16">🚀</text>
+  <!-- Title -->
+  <text x="628" y="96" fill="#3fb950" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="700">Impact</text>
+  <!-- Desc -->
+  <text x="580" y="128" fill="#8b949e" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">I ship things that</text>
+  <text x="580" y="146" fill="#8b949e" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">work in production and</text>
+  <text x="580" y="160" fill="#6e7681" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-style="italic">make a real difference</text>
+
+</svg>
